@@ -10,6 +10,9 @@ a {
   text-align: center;
 }
 
+.site-search label {
+  float: left;
+}
 .site-search .form-control {
   background-color: #000;
   color: #c908bf;
