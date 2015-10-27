@@ -41,6 +41,11 @@ a {
 .home .page-title {
   margin-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  .home article {
+    text-align: center;
+  }
+}
 
 .sidebar .nav > li a {
   padding: 0;
