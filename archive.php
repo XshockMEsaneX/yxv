@@ -82,12 +82,15 @@ get_header(); ?>
 					 * If you want to overload this in a child theme then include a file
 					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 					 */
-					get_template_part( 'content', get_post_format() );
+					echo '<div class="col-lg-3 col-md-4 col-sm-3 col-xs-12">';
+						get_template_part( 'content', get_post_format() );
+					echo '</div>'				
 				?>
 
 			<?php endwhile; ?>
-
-			<?php youngxvidz_content_nav( 'nav-below' ); ?>
+			<div class="pagination">
+				<?php echo paginate_links(); ?>
+			</div>
 
 		<?php else : ?>
 
