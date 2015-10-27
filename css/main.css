@@ -35,8 +35,10 @@ a {
   text-align: center;
 }
 
+.home article {
+  height: 220px;
+}
 .home .page-title {
-  height: 30px;
   margin-bottom: 0px;
 }
 
