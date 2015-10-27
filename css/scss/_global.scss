@@ -1,0 +1,32 @@
+body {
+	color: $white;
+}
+a {
+	color: $pink;
+}
+.sidebar {
+	.textwidget {
+		text-align: center;
+	}
+}
+.site-search {
+	.form-control {
+		background-color: #000;
+		color: $pink;
+		border-color: $pink;
+	}
+	input::-webkit-input-placeholder {
+		color: $pink;
+	}
+	.btn {
+		background-color: #000;
+		color: $pink;
+		border-color: $pink;
+	}
+}
+.pagination {
+	float: right;
+}
+.yarpp-related {
+	text-align: center;
+}

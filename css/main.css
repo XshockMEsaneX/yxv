@@ -1,0 +1,60 @@
+body {
+  color: #CECECE;
+}
+
+a {
+  color: #c908bf;
+}
+
+.sidebar .textwidget {
+  text-align: center;
+}
+
+.site-search .form-control {
+  background-color: #000;
+  color: #c908bf;
+  border-color: #c908bf;
+}
+.site-search input::-webkit-input-placeholder {
+  color: #c908bf;
+}
+.site-search .btn {
+  background-color: #000;
+  color: #c908bf;
+  border-color: #c908bf;
+}
+
+.pagination {
+  float: right;
+}
+
+.yarpp-related {
+  text-align: center;
+}
+
+.home .page-title {
+  height: 30px;
+  margin-bottom: 0px;
+}
+
+.sidebar .nav > li a {
+  padding: 0;
+}
+.sidebar .nav > li a:hover {
+  background-color: #c908bf;
+  color: #000;
+}
+
+#colophon {
+  text-align: center;
+  color: #c908bf;
+  background-color: #212121;
+}
+#colophon .container {
+  padding-bottom: 0;
+}
+#colophon p {
+  margin: 10px 0;
+}
+
+/*# sourceMappingURL=main.css.map */
