@@ -37,7 +37,7 @@ a {
 
 .home article,
 .archive article {
-  height: 220px;
+  min-height: 220px;
 }
 .home .page-title,
 .archive .page-title {
