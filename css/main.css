@@ -57,6 +57,11 @@ a {
   background-color: #c908bf;
   color: #000;
 }
+.sidebar .select {
+  background-color: #000;
+  color: #c908bf;
+  border-color: #c908bf;
+}
 
 #colophon {
   text-align: center;
