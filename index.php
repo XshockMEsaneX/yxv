@@ -30,25 +30,8 @@ get_header(); ?>
 
 		<?php endwhile; ?>
 		</div>
-		<div class="pagination">
-		<?php $args = array(
-	'base'               => '%_%',
-	'format'             => '?page=%#%',
-	'total'              => 1,
-	'current'            => 0,
-	'show_all'           => False,
-	'end_size'           => 1,
-	'mid_size'           => 10,
-	'prev_next'          => True,
-	'prev_text'          => __('« Previous'),
-	'next_text'          => __('Next »'),
-	'type'               => 'plain',
-	'add_args'           => False,
-	'add_fragment'       => '',
-	'before_page_number' => '',
-	'after_page_number'  => ''
-); ?>
-			<?php echo paginate_links( $args ); ?>
+		<div class="pagination col-sm-12">
+			<?php echo paginate_links(); ?>
 		</div>
 
 	<?php else : ?>
