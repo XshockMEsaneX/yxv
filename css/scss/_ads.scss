@@ -1,0 +1,9 @@
+.banner-1 {
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.banner-1 {
+		display: none;
+	}
+}

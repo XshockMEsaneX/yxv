@@ -91,6 +91,12 @@ function youngxvidz_widgets_init() {
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 	) );
+	register_sidebar( array(
+		'name'          => __( 'Banner 1', 'youngxvidz' ),
+		'id'            => 'banner-1',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+	) );
 }
 add_action( 'widgets_init', 'youngxvidz_widgets_init' );
 

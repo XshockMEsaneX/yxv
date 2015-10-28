@@ -57,8 +57,9 @@
 				<div class="site-search">
 					<?php get_search_form(); ?>
 				</div>
-
 			</div>
+			
+			
 		</div>
 	</div><!-- .container -->
 </header><!-- #masthead -->
@@ -101,7 +102,8 @@
 		</div>
 	</div><!-- .container -->
 </nav><!-- .site-navigation -->
-
+<?php do_action( 'before_sidebar' ); ?>
+			<?php ( dynamic_sidebar( 'banner-1' ) ); ?>
 <div class="main-content">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
 	<div class="container">
