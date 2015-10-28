@@ -48,7 +48,7 @@ get_header(); ?>
 					'add_fragment'       => '',
 					'before_page_number' => '',
 					'after_page_number'  => ''
-					); ?>
+					) ) ?>
 				</div>
 
 	<?php else : ?>
