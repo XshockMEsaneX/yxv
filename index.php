@@ -15,6 +15,9 @@ get_header(); ?>
 
 	<?php if ( have_posts() ) : ?>
 		<div class="row">
+		<div class="pagination col-sm-12">
+			<?php echo paginate_links(); ?>
+		</div>
 		<?php /* Start the Loop */ ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
