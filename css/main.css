@@ -12,6 +12,7 @@ a {
 
 .site-search label {
   float: left;
+  margin-right: 10px;
 }
 .site-search .form-control {
   background-color: #000;
