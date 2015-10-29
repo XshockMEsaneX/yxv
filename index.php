@@ -14,10 +14,27 @@
 get_header(); ?>
 
 	<?php if ( have_posts() ) : ?>
+		<?php $pagination_args = array(
+			'base'               => '%_%',
+			'format'             => '?page=%#%',
+			'total'              => 1,
+			'current'            => 0,
+			'show_all'           => False,
+			'end_size'           => 1,
+			'mid_size'           => 10,
+			'prev_next'          => True,
+			'prev_text'          => __('« Previous'),
+			'next_text'          => __('Next »'),
+			'type'               => 'plain',
+			'add_args'           => False,
+			'add_fragment'       => '',
+			'before_page_number' => '',
+			'after_page_number'  => ''
+			); ?>
 		<div class="row">
 		<div class="col-xs-12">
 			<div class="pagination">
-				<?php echo paginate_links(); ?>
+				<?php echo paginate_links( $paginate_links ); ?>
 			</div>
 		</div>
 		<?php /* Start the Loop */ ?>
@@ -37,7 +54,7 @@ get_header(); ?>
 		</div>
 		<div class="col-xs-12">
 			<div class="pagination">
-				<?php echo paginate_links(); ?>
+				<?php echo paginate_links( $paginate_links ); ?>
 			</div>
 		</div>
 
