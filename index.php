@@ -15,7 +15,7 @@ get_header(); ?>
 
 	<?php if ( have_posts() ) : ?>
 		<div class="row">
-		<div class="pagination col-sm-12">
+		<div class="pagination">
 			<?php echo paginate_links(); ?>
 		</div>
 		<?php /* Start the Loop */ ?>
@@ -33,7 +33,7 @@ get_header(); ?>
 
 		<?php endwhile; ?>
 		</div>
-		<div class="pagination col-sm-12">
+		<div class="pagination">
 			<?php echo paginate_links(); ?>
 		</div>
 
