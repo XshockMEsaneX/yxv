@@ -1,9 +1,15 @@
-.banner-1 {
+.banner-1,
+.mobile-cube-1 {
 	text-align: center;
 }
 
 @media screen and (max-width: 768px) {
 	.banner-1 {
+		display: none;
+	}
+}
+@media screen and (min-width: 769px) {
+	.mobile-cube-1 {
 		display: none;
 	}
 }
