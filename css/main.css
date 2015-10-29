@@ -42,9 +42,6 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  .share-widget {
-    text-align: center;
-  }
   .share-widget .widget {
     float: none;
   }
