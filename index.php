@@ -18,10 +18,11 @@ get_header(); ?>
 		<div class="row">
 		<div class="col-xs-12">
 			<div class="pagination">
-				<?php echo paginate_links( array(
+			<?php $pagination_args = array(
 					'total' => $wp_query->max_num_pages,
-					'mid_size'           => 8,
-				) ); ?>
+					'mid_size'           => 5,
+				); ?>
+				<?php echo paginate_links( $pagination_args ); ?>
 			</div>
 		</div>
 		<?php /* Start the Loop */ ?>
@@ -41,7 +42,7 @@ get_header(); ?>
 		</div>
 		<div class="col-xs-12">
 			<div class="pagination">
-				<?php echo paginate_links(  ); ?>
+				<?php echo paginate_links( $pagination_args ); ?>
 			</div>
 		</div>
 
