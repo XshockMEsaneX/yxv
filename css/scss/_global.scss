@@ -9,6 +9,11 @@ a {
 		text-align: center;
 	}
 }
+.share-widget {
+	.widget {
+		float: right;
+	}
+}
 .site-search {
 	label {
 		float: left;
@@ -34,4 +39,13 @@ a {
 }
 .yarpp-related {
 	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.share-widget {
+		.widget {
+			float: none;
+		}
+		text-align: center;
+	}
 }

@@ -40,7 +40,7 @@
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
 	<div class="container">
 		<div class="row">
-			<div class="site-header-inner col-sm-12">
+			<div class="site-header-inner col-sm-6">
 
 				<?php $header_image = get_header_image();
 				if ( ! empty( $header_image ) ) { ?>
@@ -58,7 +58,10 @@
 					<?php get_search_form(); ?>
 				</div>
 			</div>
-			
+			<div class="col-sm-6 share-widget">
+				<?php do_action( 'before_sidebar '); ?>
+				<?php dynamic_sidebar( 'header-1' ); ?>
+			</div>
 			
 		</div>
 	</div><!-- .container -->

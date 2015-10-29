@@ -10,6 +10,10 @@ a {
   text-align: center;
 }
 
+.share-widget .widget {
+  float: right;
+}
+
 .site-search label {
   float: left;
   margin-right: 10px;
@@ -37,6 +41,14 @@ a {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .share-widget {
+    text-align: center;
+  }
+  .share-widget .widget {
+    float: none;
+  }
+}
 .home article,
 .archive article {
   min-height: 260px;
