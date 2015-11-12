@@ -9,12 +9,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<script type="text/javascript">
-	var _prvar=_prvar||new Object();
-	(function(pa,s){if(document.getElementById('pr3ae806b7'))return false;
-	pa=document.createElement('script');pa.type='text/javascript';pa.async=true;pa.id='pr3ae806b7';pa.src='//prscripts.com/pub.js';
-	s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(pa,s);})();
-</script>
+
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +21,6 @@
 <meta name="hubtraffic-domain-validation"  content="95d03edf00f7c63f" />
 <meta name="xhamster-site-verification" content="396381156:31494"/> 
 <meta name="juicyads-site-verification" content="2fae1216317ff15ed16ae23d9acca0b3">
-<meta name="prVerify" content="d32a3c657c93013ad0e8026ab9af2bdf" />
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
